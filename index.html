@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CUERO NOBLE | Coleccion CAT Threshold</title>
+    <meta name="description" content="Catalogo profesional de calzado Caterpillar original para hombre en Cusco. Consulta disponibilidad, pagos y pedidos por WhatsApp.">
+    <meta name="theme-color" content="#151515">
+    <meta property="og:title" content="CUERO NOBLE | Coleccion CAT Threshold">
+    <meta property="og:description" content="Threshold Low gris con 30% por tiempo limitado. Otros modelos con 10% de descuento. Consulta tallas, colores y pedidos por WhatsApp.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/products/threshold-low-gray.webp">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="CUERO NOBLE inicio">
+        <img class="brand-photo" src="assets/brand/cuero-noble-outdoor.png" alt="" aria-hidden="true">
+        <span>CUERO NOBLE</span>
+      </a>
+      <nav class="top-nav" aria-label="Navegacion principal">
+        <a href="#oferta">Oferta</a>
+        <a href="#catalogo">Catalogo</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <a class="header-wa" href="https://wa.me/51929502963" target="_blank" rel="noopener">
+        <img src="assets/whatsapp.svg" alt="" aria-hidden="true">
+        <span>WhatsApp</span>
+      </a>
+    </header>
+
+    <main id="inicio">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Caterpillar originales para hombre</p>
+          <h1 id="hero-title">Coleccion CAT Threshold</h1>
+          <p class="lead">Threshold Low gris con 30% por tiempo limitado hasta terminar stock. Tallas en oferta: 40.5 y 42.</p>
+          <div class="hero-actions">
+            <a class="primary-action" href="#oferta">Ver descuentos</a>
+            <a class="secondary-action" href="#catalogo">Explorar catalogo</a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-label="CAT Threshold Low gris en oferta">
+          <img src="assets/products/threshold-low-gray.webp" alt="CAT Threshold Low gris promocionado por CUERO NOBLE" loading="eager">
+          <div class="price-chip">
+            <span>Oferta 30%</span>
+            <strong>S/279</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="notice-band" aria-label="Promociones">
+        <p>Threshold Low gris con 30% hasta terminar stock. Los demas modelos mantienen 10% de descuento.</p>
+      </section>
+
+      <section class="special" id="oferta" aria-labelledby="special-title">
+        <div>
+          <p class="eyebrow">Solo color gris</p>
+          <h2 id="special-title">CAT Threshold Low gris a S/279</h2>
+          <p>Precio de lista S/399. Oferta 30% por tiempo limitado hasta terminar stock. Tallas disponibles para esta oferta: 40.5 y 42.</p>
+        </div>
+        <button class="special-wa" type="button" data-product-id="threshold-low-gray">
+          <img src="assets/whatsapp.svg" alt="" aria-hidden="true">
+          <span>Consultar por WhatsApp</span>
+        </button>
+      </section>
+
+      <section class="catalog" id="catalogo" aria-labelledby="catalog-title">
+        <div class="section-heading">
+          <p class="eyebrow">Catalogo completo</p>
+          <h2 id="catalog-title">Modelos Threshold</h2>
+          <p>Low, Chukka, Chelsea y Hiker con fotos reales, precios especiales y consulta directa por WhatsApp.</p>
+        </div>
+
+        <div class="tools" aria-label="Filtros del catalogo">
+          <label class="search-wrap">
+            <span>Buscar</span>
+            <input id="searchInput" type="search" placeholder="Nombre, color o codigo" autocomplete="off">
+          </label>
+          <div class="filter-group" aria-label="Filtrar por categoria">
+            <button class="filter active" type="button" data-filter="all">Todo</button>
+            <button class="filter" type="button" data-filter="Low">Low</button>
+            <button class="filter" type="button" data-filter="Chukka">Chukka</button>
+            <button class="filter" type="button" data-filter="Chelsea">Chelsea</button>
+            <button class="filter" type="button" data-filter="Hiker">Hiker</button>
+          </div>
+          <label class="select-wrap">
+            <span>Color</span>
+            <select id="colorFilter">
+              <option value="all">Todos los colores</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="cards" id="productGrid" aria-live="polite"></div>
+        <p class="empty-state" id="emptyState" hidden>No encontre productos con esos filtros.</p>
+      </section>
+
+      <section class="order-colors" aria-labelledby="colors-title">
+        <div>
+          <p class="eyebrow">Pedidos</p>
+          <h2 id="colors-title">Proximamente nuevos modelos</h2>
+        </div>
+        <p>Si estas en Cusco, tu pedido estara listo en 24 horas previa confirmacion por WhatsApp. Para otros colores, tallas o nuevos modelos, coordinamos disponibilidad antes de separar.</p>
+      </section>
+
+      <section class="payments" aria-labelledby="payments-title">
+        <div>
+          <p class="eyebrow">Pagos</p>
+          <h2 id="payments-title">Medios de pago</h2>
+          <p>Consulta por WhatsApp para realizar el pago y confirmar tu pedido.</p>
+        </div>
+        <div class="payment-icons" aria-label="Yape, Plin, transferencia Caja Huancayo y debito SIP">
+          <img class="payment-logo" src="assets/payments/yape.png" alt="Yape" loading="lazy">
+          <img class="payment-logo" src="assets/payments/plin.png" alt="Plin" loading="lazy">
+          <img class="payment-logo payment-logo-wide" src="assets/payments/caja-huancayo.png" alt="Caja Huancayo" loading="lazy">
+          <img class="payment-logo" src="assets/payments/sip.png" alt="Debito SIP" loading="lazy">
+        </div>
+      </section>
+
+      <section class="size-guide" aria-labelledby="size-title">
+        <div class="section-heading">
+          <p class="eyebrow">Guia referencial</p>
+          <h2 id="size-title">Tallas Caterpillar para hombre</h2>
+          <p>Las tallas disponibles aparecen en cada modelo. Usa esta tabla solo como referencia de conversion Caterpillar.</p>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>EU</th>
+                <th>US hombre</th>
+                <th>UK</th>
+                <th>Pie aprox.</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>37</td><td>4</td><td>3</td><td>22 cm</td></tr>
+              <tr><td>37.5</td><td>4.5</td><td>3.5</td><td>22.5 cm</td></tr>
+              <tr><td>38</td><td>5</td><td>4</td><td>23 cm</td></tr>
+              <tr><td>38.5</td><td>5.5</td><td>4.5</td><td>23.5 cm</td></tr>
+              <tr><td>39</td><td>6</td><td>5</td><td>24 cm</td></tr>
+              <tr><td>39.5</td><td>6.5</td><td>5.5</td><td>24.5 cm</td></tr>
+              <tr><td>40</td><td>7</td><td>6</td><td>25 cm</td></tr>
+              <tr class="highlight-size"><td>40.5</td><td>7.5</td><td>6.5</td><td>25.5 cm</td></tr>
+              <tr><td>41</td><td>8</td><td>7</td><td>26 cm</td></tr>
+              <tr><td>41.5</td><td>8.5</td><td>7.5</td><td>26.5 cm</td></tr>
+              <tr class="highlight-size"><td>42</td><td>9</td><td>8</td><td>27 cm</td></tr>
+              <tr><td>42.5</td><td>9.5</td><td>8.5</td><td>27.5 cm</td></tr>
+              <tr><td>43</td><td>10</td><td>9</td><td>28 cm</td></tr>
+              <tr><td>43.5</td><td>10.5</td><td>9.5</td><td>28.5 cm</td></tr>
+              <tr><td>44</td><td>11</td><td>10</td><td>29 cm</td></tr>
+              <tr><td>44.5</td><td>11.5</td><td>10.5</td><td>29.5 cm</td></tr>
+              <tr><td>45</td><td>12</td><td>11</td><td>30 cm</td></tr>
+              <tr><td>46</td><td>13</td><td>12</td><td>31 cm</td></tr>
+              <tr><td>47</td><td>14</td><td>13</td><td>32 cm</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="contact" id="contacto" aria-labelledby="contact-title">
+        <div>
+          <p class="eyebrow">Cusco</p>
+          <h2 id="contact-title">Ven a verlos o coordina tu pedido</h2>
+          <p>Av. Collasuyo, altura del paradero 1 de Mayo, Cusco. Atencion por las mananas, normalmente hasta la 1:00 p. m. Domingos con previa coordinacion.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="primary-action" href="https://wa.me/51929502963" target="_blank" rel="noopener">929 502 963</a>
+          <a class="secondary-action" href="https://www.google.com/maps/search/Av.+Collasuyo+paradero+1+de+Mayo+Cusco" target="_blank" rel="noopener">Ver ubicacion</a>
+        </div>
+      </section>
+    </main>
+
+    <dialog class="product-dialog" id="productDialog" aria-labelledby="dialogTitle">
+      <button class="dialog-close" type="button" aria-label="Cerrar detalles">×</button>
+      <div class="dialog-body" id="dialogBody"></div>
+    </dialog>
+
+    <a class="floating-wa" href="https://wa.me/51929502963" target="_blank" rel="noopener" aria-label="Escribir a CUERO NOBLE por WhatsApp">
+      <img src="assets/whatsapp.svg" alt="" aria-hidden="true">
+    </a>
+
+    <footer>
+      <p>CUERO NOBLE · Calzado Caterpillar original para hombre · Cusco</p>
+      <p>Consulta tallas, colores y disponibilidad por WhatsApp.</p>
+    </footer>
+
+    <script src="data/products.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

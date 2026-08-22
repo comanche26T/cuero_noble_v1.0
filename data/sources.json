@@ -1,0 +1,49 @@
+{
+  "checkedAt": "2026-08-19",
+  "notes": [
+    "Los precios de lista en soles fueron tomados de retail peruano visible en las fuentes consultadas.",
+    "No se afirma stock real por talla o color; todas las tarjetas solicitan confirmacion por WhatsApp.",
+    "CUERO NOBLE no se presenta como distribuidor oficial de CAT Footwear.",
+    "El catalogo aplica 30% solo al CAT Threshold Low gris hasta terminar stock.",
+    "Los demas productos mantienen 10% de descuento sobre precio de lista retail.",
+    "Los precios de lista visibles se muestran como importes comerciales terminados en 9."
+  ],
+  "sources": [
+    {
+      "product": "CAT Threshold Low gris",
+      "sku": "FDM0LI283P98 / P726060",
+      "url": "https://platanitos.com/pe/producto/cat-zapato-casual-hombre-threshold-low-gris-fdm0li283p98",
+      "usedFor": ["foto", "nombre", "precio de lista S/399", "color"]
+    },
+    {
+      "product": "CAT Threshold Low negro",
+      "sku": "P726059",
+      "url": "https://www.catlifestyle.pe/zapatos-hombre-threshold-low-p726059-0",
+      "usedFor": ["precio de lista S/399", "codigo", "material", "caracteristicas"]
+    },
+    {
+      "product": "CAT Threshold Low Bungee Cord",
+      "sku": "P726060",
+      "url": "https://simple.ripley.com.pe/zapatos-hombre-threshold-low-marron-pmp20001487303",
+      "usedFor": ["precio de lista S/399", "codigo", "material", "caracteristicas"]
+    },
+    {
+      "product": "Men's Threshold Chukka Boot",
+      "sku": "58386M / P725956",
+      "url": "https://www.catlifestyle.pe/botines-hombre-threshold-chukka-p725956-0",
+      "usedFor": ["precio de lista S/429", "nombre", "codigo", "color", "material", "caracteristicas"]
+    },
+    {
+      "product": "Men's Threshold Chelsea Boot",
+      "sku": "59400M / P726056 / P726057",
+      "url": "https://www.catlifestyle.pe/botines-hombre-threshold-chelsea-p726056-0",
+      "usedFor": ["precio de lista S/459", "nombre", "codigo", "colores", "material", "caracteristicas"]
+    },
+    {
+      "product": "Men's Threshold Hiker Waterproof Boot",
+      "sku": "59401M / P725959 / P725960 / P725957",
+      "url": "https://www.catlifestyle.pe/botines-hombre-threshold-hiker-wp-p725959-0",
+      "usedFor": ["precio de lista S/499", "nombre", "codigo", "colores", "material", "impermeabilidad", "caracteristicas"]
+    }
+  ]
+}
