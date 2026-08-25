@@ -26,8 +26,7 @@ function computedOffer(product) {
 }
 
 function whatsappUrl(product) {
-  const special = product.id === "threshold-low-gray" ? " Vi la oferta de 30% en tallas 40.5 y 42." : "";
-  const text = `Hola, vi el ${product.name} en color ${product.color} en el catalogo de CUERO NOBLE.${special} Quisiera consultar talla, disponibilidad y medios de pago.`;
+  const text = `Hola, vi el ${product.name} en color ${product.color} en el catalogo de CUERO NOBLE. Quisiera consultar talla, disponibilidad y medios de pago.`;
   return `${WHATSAPP_BASE}?text=${encodeURIComponent(text)}`;
 }
 
@@ -56,7 +55,7 @@ function priceMarkup(product) {
 
 function paymentLogos(size = "mini") {
   return paymentMethods
-    .map((method) => `<img class="payment-logo payment-logo-${size}" src="${method.image}" alt="${method.name}" loading="lazy">`)
+    .map((method) => `<img class="payment-logo payment-logo-${size}" src="${method.image}" alt="${method.name}">`)
     .join("");
 }
 
@@ -74,7 +73,7 @@ function productCard(product) {
   article.dataset.slide = "0";
   article.innerHTML = `
     <div class="image-box">
-      <img src="${product.images[0]}" alt="${product.name} color ${product.colorSpanish}" loading="lazy" data-card-image>
+      <img src="${product.images[0]}" alt="${product.name} color ${product.colorSpanish}" data-card-image>
       <span class="tag">${product.tag}</span>
       <div class="carousel-controls" aria-label="Galeria de ${product.name}">
         <button type="button" data-slide-dir="-1" aria-label="Foto anterior">‹</button>
@@ -95,8 +94,7 @@ function productCard(product) {
         <div>${sizeChips(product)}</div>
       </div>
       <p class="status">${product.stockStatus}</p>
-      ${product.id === "threshold-low-gray" ? '<p class="promo-note">Por tiempo limitado · Tallas 40.5 y 42</p>' : ""}
-      <p class="delivery">Cusco: pedido listo en 24 horas, previa confirmacion.</p>
+      <p class="delivery">Pedido estimado: 5 a 10 dias habiles, previa confirmacion.</p>
       <div class="card-actions">
         <button type="button" data-detail="${product.id}">Ver detalles</button>
         <a href="${whatsappUrl(product)}" target="_blank" rel="noopener"><img src="assets/whatsapp.svg" alt="" aria-hidden="true"> Consultar por WhatsApp</a>

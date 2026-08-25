@@ -1,12 +1,13 @@
 {
-  "checkedAt": "2026-08-19",
+  "checkedAt": "2026-08-25",
   "notes": [
-    "Los precios de lista en soles fueron tomados de retail peruano visible en las fuentes consultadas.",
+    "Los precios de lista en soles fueron tomados de retail peruano visible en las fuentes consultadas cuando estuvo disponible.",
     "No se afirma stock real por talla o color; todas las tarjetas solicitan confirmacion por WhatsApp.",
     "CUERO NOBLE no se presenta como distribuidor oficial de CAT Footwear.",
-    "El catalogo aplica 30% solo al CAT Threshold Low gris hasta terminar stock.",
-    "Los demas productos mantienen 10% de descuento sobre precio de lista retail.",
-    "Los precios de lista visibles se muestran como importes comerciales terminados en 9."
+    "Los productos Threshold aplican 10% de descuento sobre precio de lista retail.",
+    "Founder Miel aplica oferta limitada de 40% sobre precio de lista retail.",
+    "Los demas productos Founder aplican 20% de descuento sobre precio de lista retail.",
+    "Las tallas mostradas son tallas EU vistas en web o convertidas desde la guia Caterpillar hombre cuando la tienda lista tallas US."
   ],
   "sources": [
     {
@@ -22,28 +23,46 @@
       "usedFor": ["precio de lista S/399", "codigo", "material", "caracteristicas"]
     },
     {
-      "product": "CAT Threshold Low Bungee Cord",
-      "sku": "P726060",
-      "url": "https://simple.ripley.com.pe/zapatos-hombre-threshold-low-marron-pmp20001487303",
-      "usedFor": ["precio de lista S/399", "codigo", "material", "caracteristicas"]
-    },
-    {
       "product": "Men's Threshold Chukka Boot",
       "sku": "58386M / P725956",
       "url": "https://www.catlifestyle.pe/botines-hombre-threshold-chukka-p725956-0",
-      "usedFor": ["precio de lista S/429", "nombre", "codigo", "color", "material", "caracteristicas"]
+      "usedFor": ["precio de lista S/429", "nombre", "codigo", "color", "material", "caracteristicas", "tallas"]
     },
     {
       "product": "Men's Threshold Chelsea Boot",
       "sku": "59400M / P726056 / P726057",
       "url": "https://www.catlifestyle.pe/botines-hombre-threshold-chelsea-p726056-0",
-      "usedFor": ["precio de lista S/459", "nombre", "codigo", "colores", "material", "caracteristicas"]
+      "usedFor": ["precio de lista S/459", "nombre", "codigo", "colores", "material", "caracteristicas", "tallas"]
     },
     {
       "product": "Men's Threshold Hiker Waterproof Boot",
       "sku": "59401M / P725959 / P725960 / P725957",
       "url": "https://www.catlifestyle.pe/botines-hombre-threshold-hiker-wp-p725959-0",
-      "usedFor": ["precio de lista S/499", "nombre", "codigo", "colores", "material", "impermeabilidad", "caracteristicas"]
+      "usedFor": ["precio de lista S/499", "nombre", "codigo", "colores", "material", "impermeabilidad", "caracteristicas", "tallas"]
+    },
+    {
+      "product": "CAT Founder Boot",
+      "sku": "P717821",
+      "url": "https://www.passosperu.pe/product-page/founder-boot",
+      "usedFor": ["foto", "precio de lista S/599", "codigo", "tallas"]
+    },
+    {
+      "product": "CAT Founder Boot negro",
+      "sku": "P717822",
+      "url": "https://catfootwear.co.uk/products/founder-p717822-mens-boot",
+      "usedFor": ["foto", "codigo", "color", "caracteristicas"]
+    },
+    {
+      "product": "CAT Founder WP Boot bronce",
+      "sku": "P725570",
+      "url": "https://www.passosperu.pe/product-page/founder-wp-boot",
+      "usedFor": ["foto", "precio de lista S/659", "codigo", "tallas"]
+    },
+    {
+      "product": "CAT Founder WP Boot cafe",
+      "sku": "P721593",
+      "url": "https://www.shopcaterpillar.cl/products/cat-botin-hombre-founder-wp-p721593-ce8",
+      "usedFor": ["foto", "codigo", "color", "tallas"]
     }
   ]
 }
